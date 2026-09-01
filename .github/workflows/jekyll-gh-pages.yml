@@ -6,6 +6,10 @@ on:
   push:
     branches: ["master"]
 
+  # Validate proposed changes before they are merged
+  pull_request:
+    branches: ["master"]
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -40,6 +44,7 @@ jobs:
 
   # Deployment job
   deploy:
+    if: github.event_name == 'push'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
