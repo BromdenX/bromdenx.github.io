@@ -1,12 +1,12 @@
 ---
 layout: page
-description: "记录 AI Agent、网络技术与个人成长的长期实践"
+description: "AI systems, network engineering, and notes from the field"
 ---
 
-<section class="focus-strip" aria-label="博客主题">
-    <a href="{{ site.baseurl }}/tags/#AI-Agent">AI 与 Agent</a>
-    <a href="{{ site.baseurl }}/tags/#技术实验">网络与技术实验</a>
-    <a href="{{ site.baseurl }}/tags/#成长随笔">个人成长与生活</a>
+<section class="focus-strip" aria-label="Blog topics">
+    <a href="{{ site.baseurl }}/tags/#AI-Agents">AI &amp; Agents</a>
+    <a href="{{ site.baseurl }}/tags/#Network-Systems">Networks &amp; Systems</a>
+    <a href="{{ site.baseurl }}/tags/#Life-and-Learning">Life &amp; Learning</a>
 </section>
 
 {% for post in paginator.posts %}
@@ -23,7 +23,7 @@ description: "记录 AI Agent、网络技术与个人成长的长期实践"
 
 {% if paginator.total_pages > 1 %}
 <ul class="pager">
-    {% if paginator.previous_page %}<li class="previous"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; 较新文章</a></li>{% endif %}
-    {% if paginator.next_page %}<li class="next"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">较早文章 &rarr;</a></li>{% endif %}
+    {% if paginator.previous_page %}<li class="previous"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a></li>{% endif %}
+    {% if paginator.next_page %}<li class="next"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a></li>{% endif %}
 </ul>
 {% endif %}

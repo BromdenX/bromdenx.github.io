@@ -1,9 +1,9 @@
 # Site identity
 title: BromdenX
-SEOTitle: 酋长的技术实践与认知笔记 | BromdenX
+SEOTitle: BromdenX | AI Systems, Networks, and Field Notes
 header-img: img/post-bg-desk.jpg
-description: "记录 AI Agent、网络技术与个人成长的长期实践。"
-keyword: "BromdenX,酋长,AI Agent,Personal AI OS,网络技术,技术实验,个人成长"
+description: "Practical notes on AI agents, network systems, and the work of building."
+keyword: "BromdenX,AI agents,Personal AI OS,network systems,engineering notes"
 url: "https://bromdenx.github.io"
 baseurl: ""
 github_repo: "https://github.com/BromdenX/bromdenx.github.io"
@@ -11,7 +11,7 @@ timezone: Asia/Shanghai
 
 # Sidebar
 sidebar: true
-sidebar-about-description: "工程师。持续实践 AI Agent、个人 AI OS 与网络技术，也记录成长和生活。"
+sidebar-about-description: "Engineer working across AI agents, personal systems, and network infrastructure."
 sidebar-avatar: /img/about-BY-gentle.jpg
 
 # Social links

@@ -1,6 +1,6 @@
 # BromdenX Blog
 
-酋长的技术实践与认知笔记，基于 Jekyll 与 GitHub Pages。
+An engineering field notebook for AI systems, networks, and long-term learning，基于 Jekyll 与 GitHub Pages。
 
 - 网站：https://bromdenx.github.io
 - 内容：AI 与 Agent、网络与技术实验、个人成长与生活
@@ -20,14 +20,14 @@ author: BromdenX
 header-img: img/post-bg-desk.jpg
 catalog: true
 tags:
-  - AI-Agent
-  - 技术实验
+  - AI-Agents
+  - Technical-Notes
 ---
 ```
 
 随后用 Markdown 编写正文并提交。GitHub Actions 成功后，文章会自动出现在首页与对应主题页。
 
-建议保持标签稳定，优先使用：`AI-Agent`、`Personal-AI-OS`、`网络技术`、`技术实验`、`成长随笔`、`生活记录`。
+建议保持标签稳定，优先使用：`AI-Agents`、`Personal-AI-OS`、`Network-Systems`、`Technical-Notes`、`Life-and-Learning`。
 
 ## 本地预览
 
