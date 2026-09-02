@@ -7,7 +7,7 @@ author:     BromdenX
 header-img: img/post-bg-cook.jpg
 catalog: true
 tags:
-    - 成长随笔
+    - Life-and-Learning
 ---
 ## 为什么重新开始
 
